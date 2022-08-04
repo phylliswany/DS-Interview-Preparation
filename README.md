@@ -1,1 +1,1 @@
-# DS-Interview-Preparation
+# Statistical Inference
