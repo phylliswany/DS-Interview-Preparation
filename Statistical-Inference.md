@@ -30,13 +30,9 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 
 ## Expected Values
 
-* The population mean is the center of mass of population
+* Our sample expected values (the sample mean and variance) will estimate the population versions
 
-* The sample mean is the center of mass of the observed data
-
-* The sample mean is an estimate of the population mean
-
-* $E[X_1 + X_2 + X_3 + \cdot	\cdot	\cdot	 + X_n] = E[X_1] + E[X_2] + E[X_3] + \cdot	\cdot	\cdot + E[X_n]$
+* Linearity of expectation: $E[\sum_{i=1}X_i] = \sum_{i=1}E[X_i]$
 
 ## The Variance
 
