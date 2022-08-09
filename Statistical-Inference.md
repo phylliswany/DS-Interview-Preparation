@@ -117,3 +117,11 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 * Controlling FWER (the Bonferroni correction): set $\alpha_{fwer} = \alpha/m$
 
 * Controlling FDR (the BH correction): order the P-values from smallest to largest $P_{(1)},...,P_{(m)}$, call any $P_{(i)} \leq \alpha \times \frac{i}{m}$ significant
+
+## Resampled Inference
+
+* The jackknife: deletes each observation and calculates an estimate based on the remaining $n-1$ of them to estimate the bias and standard error (not needed for sample means)
+
+* The bootstrap: simulate complete data sets from the observed data with replacement, calculate the statistic for each simulated data set, and use the simulated statistics to either define a confidence interval or take the standard deviation to calculate a standard error
+
+* Permutation tests: consider the null hypothesis that the dsitribution of the observtions from each group is the same, discard the group levels and permutate the combined data, split the permuted data into two groups, and evaluate the probability of getting a statistic as large or larger than the one observed
