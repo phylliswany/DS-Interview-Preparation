@@ -2,6 +2,10 @@
 
 Course Website: https://www.coursera.org/learn/statistical-inference
 
+Slides: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
+
+Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
+
 ## Probability
 
 * For any two events the probability that at least one occurs is the sum of their probabilities minus their intersection:
