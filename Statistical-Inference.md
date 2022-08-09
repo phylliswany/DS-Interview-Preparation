@@ -12,19 +12,9 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 
 ## Probability
 
-* For any two events the probability that at least one occurs is the sum of their probabilities minus their intersection:
-$P(A_1 \cup A_2) = P(A_1) + P(A_2) - P(A_1 \cap A_2)$
+* The cumulative distribution function (CDF): $F(x) = P(X \leq x)$
 
-* PMF: A probability mass function evaluated at a value corresponds to the probability that a random variable takes that value.
-
-* PDF: A probability density function, a a function associated with a continuous random variable. Areas under PDFs correspond to probabilities for that random variable.
-
-* The cumulative distribution function (CDF):
-$F(x) = P(X \leq x)$
-
-
-* The survival function:
-$S(x) = P(X \geq x) = 1 - F(x)$
+* The survival function: $S(x) = P(X \geq x) = 1 - F(x)$
 
 * The $\alpha^{th}$ quantile of a distribution with distribution function $F$ is the point $x_{\alpha}$ so that $F(x_{\alpha}) = \alpha$
 
