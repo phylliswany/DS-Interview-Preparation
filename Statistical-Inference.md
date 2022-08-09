@@ -6,6 +6,10 @@ Slides: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 
 Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 
+## Introduction
+
+* Statistical inference is to infer facts about a population using noisy statistical data when uncertainty must be accounted for. 
+
 ## Probability
 
 * For any two events the probability that at least one occurs is the sum of their probabilities minus their intersection:
