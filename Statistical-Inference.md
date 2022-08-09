@@ -47,3 +47,11 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 * The standard error $S/\sqrt{n}$: how variable averages of random samples of size $n$ from the population are
 
 ## Common Distributions
+
+* The Bernoulli distribution: $P(X = x) = p^x(1-p)^{1-x}$, $E[X] = p$, $Var(X) = p(1-p)$
+
+* The binomial mass function: $P(X = x) = \binom{n}{x}p^x(1-p)^{n-x}$
+
+* The normal distribution: $f(x) = (2\pi\sigma^2)^{-1/2}e^{-(x-\mu)^2/2\sigma^2}$, $E[X] = \mu$, $Var(X) = \sigma^2$
+
+* The Poisson distribution:  $P(X = x; \lambda) = \frac{\lambda^xe^{-\lambda}}{x!}$, $E[X] = \lambda$, $Var(X) = \lambda$
