@@ -79,3 +79,11 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 * Under unequal variances: $\bar{Y}-\bar{X}\pm t_{df} \times (\frac{s_x^2}{n_x}+\frac{s_y^2}{n_y})^{1/2}$, $df = \frac{(S_x^2/n_x+S_y^2/n_y)^2}{(\frac{s_x^2}{n_x})^2/(n_x-1)+(\frac{s_y^2}{n_y})^2/(n_y-1)}$
 
 ## Hypothesis Testing
+
+* $\alpha$ = Type I error rate = Probability of rejecting the null hypothesis when, in fact, the null hypothesis is correct
+
+* The $Z$ test for $H_0: \mu=\mu_0$ versus $H_1: \mu<\mu_0$, $H_2: \mu \neq \mu_0$, $H_3: \mu>\mu_0$
+
+* Test statistic: $TS=\frac{\bar{X}-\mu_0}{S/\sqrt{n}}$
+
+* Reject the null hypothesis when: $TS \leq Z_\alpha = -Z_{1-\alpha}$, $|TS| \geq Z_{1-\alpha/2}$, $TS \geq Z_{1-\alpha}$
