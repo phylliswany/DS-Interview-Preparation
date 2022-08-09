@@ -95,3 +95,13 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 * The attained significance level: the smallest value for alpha that you still reject the null hypothesis
 
 * For two sides hypothesis test, double the smaller of the two one sided hypothesis test Pvalues
+
+## Power
+
+* Power: the probability of rejecting the null hypothesis when it is false
+
+* $\beta$ = Type I error rate = Probability of failing to reject the null hyppothesis when it's false
+
+* When testing $H_a: \mu > \mu_0$, $1 - \beta = P(\bar{X} > \mu_0 + z_{1-\alpha}\frac{\sigma}{\sqrt{n}}; \mu=\mu_\alpha)$
+
+* Power only needs $\frac{\sqrt{n}(\mu_\alpha-\mu_0)}{\sigma}$
