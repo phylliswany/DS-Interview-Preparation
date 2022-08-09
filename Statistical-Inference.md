@@ -87,3 +87,11 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 * Test statistic: $TS=\frac{\bar{X}-\mu_0}{S/\sqrt{n}}$
 
 * Reject the null hypothesis when: $TS \leq Z_\alpha = -Z_{1-\alpha}$, $|TS| \geq Z_{1-\alpha/2}$, $TS \geq Z_{1-\alpha}$
+
+## P-values
+
+* P-value: the probability under the null hypothesis of obtaining evidence as extreme or more extreme than would be observed by chance alone
+
+* The attained significance level: the smallest value for alpha that you still reject the null hypothesis
+
+* For two sides hypothesis test, double the smaller of the two one sided hypothesis test Pvalues
