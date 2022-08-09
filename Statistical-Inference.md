@@ -32,6 +32,8 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 
 * Our sample expected values (the sample mean and variance) will estimate the population versions
 
+
+
 * Linearity of expectation: $E[\sum_{i=1}X_i] = \sum_{i=1}E[X_i]$
 
 ## The Variance
@@ -55,3 +57,13 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 * The normal distribution: $f(x) = (2\pi\sigma^2)^{-1/2}e^{-(x-\mu)^2/2\sigma^2}$, $E[X] = \mu$, $Var(X) = \sigma^2$
 
 * The Poisson distribution:  $P(X = x; \lambda) = \frac{\lambda^xe^{-\lambda}}{x!}$, $E[X] = \lambda$, $Var(X) = \lambda$
+
+## Asymptotics
+
+* Law of Large Numbers (LLN): the average of iid samples converge to the population means that they are estimating
+
+* The Central Limit Theorem (CLT): the distribution of average of iid variables (properly normalized) becomes that of a standard normal as the sample size increases
+
+* Confidence intervals: the quantity $\bar{X} \pm 2\sigma/\sqrt{n}$ is called a $95$% interval for $\mu$
+
+* The Poisson and binomial case have exact intervals that don't require the CLT
