@@ -104,4 +104,16 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 
 * When testing $H_a: \mu > \mu_0$, $1 - \beta = P(\bar{X} > \mu_0 + z_{1-\alpha}\frac{\sigma}{\sqrt{n}}; \mu=\mu_\alpha)$
 
-* Power only needs $\frac{\sqrt{n}(\mu_\alpha-\mu_0)}{\sigma}$
+* Power only needs: $\frac{\sqrt{n}(\mu_\alpha-\mu_0)}{\sigma}$
+
+## Multiple Testing
+
+* False positive rate: the rate at which false results are called significant
+
+* Family wise error rate (FWER): the probability of at least one false positive
+
+* False discovery rate (FDR): the rate at which claims of significance are false
+
+* Controlling FWER (the Bonferroni correction): set $\alpha_{fwer} = \alpha/m$
+
+* Controlling FDR (the BH correction): order the P-values from smallest to largest $P_{(1)},...,P_{(m)}$, call any $P_{(i)} \leq \alpha \times \frac{i}{m}$ significant
