@@ -67,3 +67,15 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 * Confidence intervals: the quantity $\bar{X} \pm 2\sigma/\sqrt{n}$ is called a $95$% interval for $\mu$
 
 * The Poisson and binomial case have exact intervals that don't require the CLT
+
+## T Confidence Intervals
+
+* T Confidence interval: $\bar{X} \pm t_{n-1}S/\sqrt{n}$
+
+* The confidence interval for $\mu_y - \mu_x$: $\bar{Y}-\bar{X}\pm t_{n_x+n_y-2, 1-\alpha/2}S_p(\frac{1}{n_x}+\frac{1}{n_y})^{1/2}$
+
+* The pooled variance estimator: $S_p^2 = ((n_x-1)S_x^2+(n_y-1)S_y^2)/(n_x+n_y-2)$
+
+* Under unequal variances: $\bar{Y}-\bar{X}\pm t_{df} \times (\frac{s_x^2}{n_x}+\frac{s_y^2}{n_y})^{1/2}$, $df = \frac{(S_x^2/n_x+S_y^2/n_y)^2}{(\frac{s_x^2}{n_x})^2/(n_x-1)+(\frac{s_y^2}{n_y})^2/(n_y-1)}$
+
+## Hypothesis Testing
