@@ -12,6 +12,8 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 
 ## Probability
 
+* For any two events the probability that at least one occurs is: $P(A \cup B) = P(A) + P(B) - P(AB)$
+
 * The cumulative distribution function (CDF): $F(x) = P(X \leq x)$
 
 * The survival function: $S(x) = P(X \geq x) = 1 - F(x)$
@@ -20,19 +22,9 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 
 ## Conditional Probability
 
-* The conditional probability of an event $A$ given that $B$ has occurred: 
-$P(A|B) = \frac{P(A \cap B)}{P(B)}$
+* Bayes' rule: $P(B|A) = \frac{P(A|B)P(B)}{P(A|B)P(B) + P(A|B^c)P(B^c)}$
 
-* If $A$ and $B$ are independent:
-$P(A|B) = \frac{P(A)P(B)}{P(B)} = P(A)$
-
-* Bayes' rule: 
-$P(B|A) = \frac{P(A|B)P(B)}{P(A|B)P(B) + P(A|B^c)P(B^c)}$
-
-* Two events $A$ and $B$ are independent if:
-$P(A \cap B) = P(A)P(B)$
-
-* If $A$ is indepdent of $B$, then $A^c$ and $B^c$
+* Two events $A$ and $B$ are independent if: $P(A \cap B) = P(A)P(B)$
 
 * Random variables are said to be iid if they are indepedent (statistically unrelated from one and another) and identically distributed (all having been drawn from the same population distribution)
 
