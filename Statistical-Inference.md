@@ -36,13 +36,11 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 
 ## The Variance
 
-* The variance of a random variable is a measure of spread:
-$Var(X) = E[(X - \mu)^2] = E[X^2] - E[X]^2$
+* The population variance: $Var(X) = E[(X - \mu)^2] = E[X^2] - E[X]^2$
 
 * The sample variance is also a random variable: $S^2 = \frac{\sum_{i=1}(X_i - \bar{X})^2}{n-1}$
 
-* The average of random sample from a population is itself a random variable:
-$E[\bar{X}] = \mu$ and $Var[\bar{X}] = \sigma^2 / n$
+* The average of random sample from a population is itself a random variable: $E[\bar{X}] = \mu$ and $Var[\bar{X}] = \sigma^2 / n$
 
 * The standard deviation $S$: how variable the population is
 
