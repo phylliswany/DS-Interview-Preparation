@@ -2,7 +2,7 @@
 
 Course Website: https://www.coursera.org/learn/statistical-inference
 
-Slides: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
+Slides: https://github.com/phylliswany/courses/tree/master/06_StatisticalInference
 
 Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXiBmGyzLrUjzsblmQsLtkzJ
 
