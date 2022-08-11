@@ -49,3 +49,15 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * Least squares minimizes $\sum_i e_i^2$
 
 * Properties of the residuals: $E[e_i] = 0$, if an intercept is included, $\sum_i e_i = 0$, and if a regressor variable, $X_i$, is included in the model $\sum_i e_i X_i = 0$ 
+
+* Residual plots highlight poor model fit
+
+* The ML estimate of $\sigma^2$: $\frac{1}{n} \sum_i e_i^2$
+
+* Total Variation = Residual Variation + Regression Variation:  $\sum_i (Y_i - \bar{Y})^2 = \sum_i (Y_i - \hat{Y}_i)^2 + \sum_i (\hat{Y}_i - \bar{Y})^2$
+
+* The percentage of total variation described by the model: $R^2 = \frac{\sum_i (\hat{Y}_i - \bar{Y})^2}{\sum_i (Y_i - \bar{Y})^2} = 1 - \frac{\sum_i (Y_i - \hat{Y}_i)^2}{\sum_i (Y_i - \bar{Y})^2}$
+
+* $R^2$ is the sample correlation squared
+
+* $R^2$ can be a misleading summary of model fit
