@@ -19,3 +19,5 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * Correlation: $Cor(X, Y) = \frac{Cov(X, Y)}{S_xS_y}$
 
 * $Cor(X, Y)$ measures the strength of the linear relationship, with stronger relationships as $Cor(X, Y)$ heads towards $-1$ or $1$
+
+## Regression via Least Squares
