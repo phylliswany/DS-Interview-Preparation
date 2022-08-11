@@ -41,3 +41,11 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * $\beta_0$: the expected value of the response when the predictor is 0 $E[Y|X=0]$
 
 * $\beta_1$: the expected change in response for a 1 unit change in the predictor $E[Y|X=x+1] - E[Y|X=x]$
+
+## Residuals and Residual Variation
+
+* Residual: $e_i = Y_i - (\hat{\beta}_0 + \hat{\beta}_1X_i) = Y_i - \hat{Y}_i$
+
+* Least squares minimizes $\sum_i e_i^2$
+
+* Properties of the residuals: $E[e_i] = 0$, if an intercept is included, $\sum_i e_i = 0$, and if a regressor variable, $X_i$, is included in the model $\sum_i e_i X_i = 0$ 
