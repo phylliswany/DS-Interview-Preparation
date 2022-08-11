@@ -75,3 +75,13 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * Prediction interval at $x_0$ se, $\hat{\sigma}\sqrt{1 + \frac{1}{n} + \frac{(x_0 - \bar{X})^2}{\sum_i(X_i - \bar{X})^2}}$
 
 * Both intervals have varying widths: least width at the mean of the $X$ s
+
+## Multivariable Regression
+
+* The least square estimate for the coefficient of a multivariate regression model: regression through the origin with the linear relationship with the other regressors removed from both the regressor and outcome by taking residuals
+
+* If we want an adjusted relationship between $Y$ and $X$: keep taking residuals over confounders and do regression through the origin
+
+* The interpretation of a multivariate regression coefficient: the expected change in the response per unit change in the regressor, holding all of the other regressors fixed
+
+## Regression Models
