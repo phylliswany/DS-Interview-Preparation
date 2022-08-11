@@ -61,3 +61,5 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * $R^2$ is the sample correlation squared
 
 * $R^2$ can be a misleading summary of model fit
+
+## Inference in Regression
