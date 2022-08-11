@@ -16,8 +16,14 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 
 * The empirical covariance: $Cov(X, Y) = \frac{1}{n-1} \sum_i (X_i-\bar{X})((Y_i-\bar{Y}))$
 
-* Correlation: $Cor(X, Y) = \frac{Cov(X, Y)}{S_xS_y}$
+* Correlation: $Cor(X, Y) = \frac{Cov(X, Y)}{S_XS_Y}$
 
 * $Cor(X, Y)$ measures the strength of the linear relationship, with stronger relationships as $Cor(X, Y)$ heads towards $-1$ or $1$
 
 ## Regression via Least Squares
+
+* The least squares model: $Y = \hat{\beta}_0 + \hat{\beta}_1X$, where $\hat{\beta}_1 = Cor(X, Y)\frac{S_Y}{S_X}$ and $\hat{\beta}_0 = \bar{Y} - \hat{\beta}_1\bar{X}$ 
+
+* The line passes through the point (\bar{X}, \bar{Y})
+
+* If you normalized the data, $\hat{\beta}_1 = Cor(X, Y)$ and $\hat{\beta}_0 = 0$ 
