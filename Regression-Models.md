@@ -31,3 +31,5 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 ## Regression to the Mean
 
 * If the corrletaion is 1 there is no regression to the mean
+
+## Statistical Linear Regression Models
