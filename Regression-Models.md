@@ -85,3 +85,7 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * The interpretation of a multivariate regression coefficient: the expected change in the response per unit change in the regressor, holding all of the other regressors fixed
 
 ## Regression Models
+
+* Dummy variables: $Y_i = \beta_0 + X_{i1}\beta_1 + \epsilon_i$ where each $X_{i1}$ is binary so that it is a $1$ if measurement $i$ is in a group and 0 otherwise
+
+* Two lines: $H_{u_i} = b_0 + b_1In_i + b_2Y_i + b_3In_i \times Y_i + e_i^+$
