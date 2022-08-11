@@ -63,3 +63,15 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * $R^2$ can be a misleading summary of model fit
 
 ## Inference in Regression
+
+* $\sigma_{\hat{\beta}_1}^2 = Var(\hat{\beta}_1) = \sigma^2 / \sum_i (X_i - \bar{X})^2$
+
+* $\sigma_{\hat{\beta}_0}^2 = Var(\hat{\beta}_0) = (\frac{1}{n} + \frac{\bar{X}^2}{\sum_i (X_i - \bar{X})^2})\sigma^2$
+
+* Under iid Gaussian errors, $\frac{\hat{\beta}_j-\beta_j}{\hat{\sigma}}$ follows a $t$ distribution with $n-2$ degrees of freedom and a normal distribution for large n
+
+* Line at $x_0$ se, $\hat{\sigma}\sqrt{\frac{1}{n} + \frac{(x_0 - \bar{X})^2}{\sum_i(X_i - \bar{X})^2}}$
+
+* Prediction interval at $x_0$ se, $\hat{\sigma}\sqrt{1 + \frac{1}{n} + \frac{(x_0 - \bar{X})^2}{\sum_i(X_i - \bar{X})^2}}$
+
+* Both intervals have varying widths: least width at the mean of the $X$ s
