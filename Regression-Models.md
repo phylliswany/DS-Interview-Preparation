@@ -34,4 +34,6 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 
 ## Statistical Linear Regression Models
 
-* A probabilistic model for linear regression: $Y_i = \hat{\beta}_0 + \hat{\beta}_1X_i + \epsilon_i$, where $\epsilon_i$ are assumed iid $N(0, \sigma^2)$, $E[Y_i|X_i=x_i] = \mu_i = \hat{\beta}_0 + \hat{\beta}_1x_i$, $Var[Y_i|X_i=x_i] = \sigma^2$, and $Y_i$ are independent $N(\mu_i, \sigma^2)$
+* A probabilistic model for linear regression: $Y_i = \beta_0 + \beta_1X_i + \epsilon_i$, where $\epsilon_i$ are assumed iid $N(0, \sigma^2)$, $E[Y_i|X_i=x_i] = \mu_i = \beta_0 + \beta_1x_i$, $Var[Y_i|X_i=x_i] = \sigma^2$, and $Y_i$ are independent $N(\mu_i, \sigma^2)$
+
+* The least squares estimate is exactly the maximum likelihood estimate (regardless of $\sigma$)
