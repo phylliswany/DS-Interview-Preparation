@@ -24,6 +24,6 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 
 * The least squares model: $Y = \hat{\beta}_0 + \hat{\beta}_1X$, where $\hat{\beta}_1 = Cor(X, Y)\frac{S_Y}{S_X}$ and $\hat{\beta}_0 = \bar{Y} - \hat{\beta}_1\bar{X}$ 
 
-* The line passes through the point (\bar{X}, \bar{Y})
+* The line passes through the point $(\bar{X}, \bar{Y})$
 
 * If you normalized the data, $\hat{\beta}_1 = Cor(X, Y)$ and $\hat{\beta}_0 = 0$ 
