@@ -27,3 +27,5 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * The line passes through the point $(\bar{X}, \bar{Y})$
 
 * If you normalized the data, $\hat{\beta}_1 = Cor(X, Y)$ and $\hat{\beta}_0 = 0$ 
+
+## Regression to the Mean
