@@ -91,3 +91,7 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * Two lines: $H_{u_i} = b_0 + b_1In_i + b_2Y_i + b_3In_i \times Y_i + e_i^+$
 
 ## Residuals, Diagnostics, Variation
+
+* Residuals: $e_i = Y_i - \hat{Y_i} = Y_i - \sum_{k=1}X_{ik}\hat{\beta_k}$
+
+* Estimate of residual variation: $\hat{\sigma}^2 = \frac{\sum_{i=1}e_i^2}{n-p}$
