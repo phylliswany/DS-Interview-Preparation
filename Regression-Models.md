@@ -101,3 +101,11 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * Leverage measures: diagnose data entry errors
 
 * Influence measures: how does deleting or including this point impact a particular aspect of the model
+
+## Multiple Variables
+
+* Omitting variables: bias in the coefficients of interest unless their regressors are uncorrelated with the omitted ones
+
+* Including variables that should't have: increase standard erros of the regression variables
+
+* More regressors are included: $R^2$ increases monotonically and the SSE decreases monotonically
