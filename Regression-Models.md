@@ -109,3 +109,7 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * Including variables that should't have: increase standard erros of the regression variables
 
 * More regressors are included: $R^2$ increases monotonically and the SSE decreases monotonically
+
+* Residual variance estimation: if we underfit the model, the varianxe estimate is biased and if we include unnecessary variables, the variance of the variance is larger.
+
+* The models of interest are nested and without lots of parameters differetiating them: nested likelihood ratio tests
