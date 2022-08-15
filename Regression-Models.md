@@ -95,3 +95,9 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * Residuals: $e_i = Y_i - \hat{Y_i} = Y_i - \sum_{k=1}X_{ik}\hat{\beta_k}$
 
 * Estimate of residual variation: $\hat{\sigma}^2 = \frac{\sum_{i=1}e_i^2}{n-p}$
+
+* Residual QQ plots: investigate normality of the errors
+
+* Leverage measures: diagnose data entry errors
+
+* Influence measures: how does deleting or including this point impact a particular aspect of the model
