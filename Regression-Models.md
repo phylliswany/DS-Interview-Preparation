@@ -113,3 +113,5 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * Residual variance estimation: if we underfit the model, the varianxe estimate is biased and if we include unnecessary variables, the variance of the variance is larger.
 
 * The models of interest are nested and without lots of parameters differetiating them: nested likelihood ratio tests
+
+## Generalized Linear Models
