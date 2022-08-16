@@ -115,3 +115,7 @@ Videos: https://www.youtube.com/playlist?list=PLpl-gQkQivXjqHAJd2t-J_One_fYE55tC
 * The models of interest are nested and without lots of parameters differetiating them: nested likelihood ratio tests
 
 ## Generalized Linear Models
+
+* $Y_i \backsim Bernoulli(\mu_i)$ so that $E[Y_i] = \mu_i$: $\mu_i = \frac{e^{\eta_i}}{1+e^{\eta_i}}$ and $\eta_i = \sum_k X_{ik}\beta_k$
+
+* $Y_i \backsim Poisson(\mu_i)$ so that $E[Y_i] = \mu_i$: $\mu_i = e^{\eta_i}$ and $\eta_i = \sum_k X_{ik}\beta_k$
