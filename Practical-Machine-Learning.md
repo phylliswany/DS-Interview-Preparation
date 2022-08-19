@@ -51,3 +51,11 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 ## ROC curves
 
 * True positive rate vs. False positive rate
+
+* AUC: 0.5 is random guessing and 1 is perfect classifier
+
+## Cross Validation
+
+* Used for: picking variables to include in a model, picking the type of prediction function to use, picking the parameters in the prediction function, and comparing different predictors
+
+* Use the training set and split it into training/test sets: Randome subsampling, K-fold, and Leave one out without replacement
