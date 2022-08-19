@@ -73,3 +73,13 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * Easy to implement and interpret
 
 * Often poor performance in nonlinear settings
+
+## Predicting with trees
+
+* Easy to interpret and Better performance in nonlinear settings
+
+* Without pruning/cross-validation can lead to overfitting, Harder to estimate uncertainity, and Results may be variable
+
+* Basic algorithm: Start with all variables in one group -> Find the variables/split that best separates the outcomes -> Divide the data into two groups ("leaves") on that split ("node") -> Within each split, find the best variable/split that separates the outcomes -> Continue until the groups are too small or sufficiently "pure"
+
+* Measures of impurity: $\hat{p_{mk}} = \frac{1}{N_m}\sum_{x_i in Leaf m} 1(y_i=k)$
