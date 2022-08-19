@@ -67,3 +67,9 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * SVD: $X=UDV^T$ where $X$ is a matrix with each variable in a column and each observation in a row
 
 * PCA: the principal components are equal to the right singular values if you first scale the variables
+
+## Predicting with regression
+
+* Easy to implement and interpret
+
+* Often poor performance in nonlinear settings
