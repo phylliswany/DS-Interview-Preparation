@@ -105,3 +105,11 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * Pros: Accuracy
 
 * Cons: Speed, Interpretability, and Overfitting
+
+## Boosting
+
+* Start with a set of classifiers $h_1, ..., h_k$ and Create a classifier that combines classification functions: $f(x)=sgn(\sum_t \alpha_t h_t(x))$
+
+* Goal is tto minimize error (on training set): Iteratively select one $h$ at each step, Calculate weights based on errors, and Upweight missed calssfications and select next $h$
+
+* One large subclass is gradient boosting
