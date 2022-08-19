@@ -25,3 +25,21 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * A medium sample size: 60% training + 40% testing
 
 * A small sample size: cross validation
+
+## Types of errors
+
+* Mean squared error (MSE): $\frac{1}{n}\sum_i(Prediction_i-Truth_i)^2$
+
+* Root mean squared error (RMSE): $\sqrt{\frac{1}{n}\sum_i(Prediction_i-Truth_i)^2}$
+
+* Sensitivity: TP/(TP+FN)
+
+* Specificity: TN/(TN+FP)
+
+* Accuracy: (TP+TN)/(TP+FP+FN+TN)
+
+* Precision: TP/(TP+FP)
+
+* Recall: TP/(TP+FN)
+
+* F score: $2\frac{Precision \times Recall}{Precision + Recall}$
