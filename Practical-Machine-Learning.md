@@ -97,3 +97,11 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * Similar bias, Reduced variance but More useful for non-linear functions
 
 * An extension is random forests
+
+## Random forests
+
+* Bootstrap samples, At each split bootstrap variables and Grow multiple trees and vote
+
+* Pros: Accuracy
+
+* Cons: Speed, Interpretability, and Overfitting
