@@ -7,3 +7,7 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 ## What is prediction?
 
 * question -> input data -> features -> algorithm -> parameters -> evaluation
+
+## Relative importance of steps
+
+* question > data > features > algorithms
