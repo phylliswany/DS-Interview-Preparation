@@ -113,3 +113,13 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * Goal is tto minimize error (on training set): Iteratively select one $h$ at each step, Calculate weights based on errors, and Upweight missed calssfications and select next $h$
 
 * One large subclass is gradient boosting
+
+## Model based prediction
+
+* Our goal is to build parametric model for conditional distribution $P(Y=k|X=x)$: Apply Bayes theorem $P(Y=k|X=x) = \frac{f_k(x)\pi_k}{\sum_l f_l(x)\pi_l}$, Estimate the paramaters from the data, and Classifiy to the class with the highest value of $P(Y=k|X=x)$
+
+* Prior probabilities $\pi_k$: set in advance
+
+* A common choice for $f_k(x)$: a Gaussian distribution
+
+* Discriminant function: $\delta_k(x) = x^T \Sigma^{-1} \mu_k - \frac{1}{2}\mu_k  \Sigma^{-1} \mu_k + log(\mu_k )$
