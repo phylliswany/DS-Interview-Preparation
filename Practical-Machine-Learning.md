@@ -11,3 +11,7 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 ## Relative importance of steps
 
 * question > data > features > algorithms
+
+## In sample and out of sample error
+
+* In sample error < out of sample error due to overfitting: capturing both signal + noise
