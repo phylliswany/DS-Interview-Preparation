@@ -32,6 +32,10 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 
 * Root mean squared error (RMSE): $\sqrt{\frac{1}{n}\sum_i(Prediction_i-Truth_i)^2}$
 
+* True positive: correctly identified
+
+* False positive: incorrectly identified
+
 * Sensitivity: TP/(TP+FN)
 
 * Specificity: TN/(TN+FP)
@@ -43,3 +47,7 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * Recall: TP/(TP+FN)
 
 * F score: $2\frac{Precision \times Recall}{Precision + Recall}$
+
+## ROC curves
+
+* True positive rate vs. False positive rate
