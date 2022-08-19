@@ -82,4 +82,10 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 
 * Basic algorithm: Start with all variables in one group -> Find the variables/split that best separates the outcomes -> Divide the data into two groups ("leaves") on that split ("node") -> Within each split, find the best variable/split that separates the outcomes -> Continue until the groups are too small or sufficiently "pure"
 
-* Measures of impurity: $\hat{p_{mk}} = \frac{1}{N_m}\sum_{x_i in Leaf m} 1(y_i=k)$
+* Measures of impurity: $\hat{p_{mk}}=\frac{1}{N_m}\sum_{x_i in Leaf m} 1(y_i=k)$
+
+* Misclassification error: $1-\hat{p_{mk}};k(m)=most;common;k$
+
+* Gini index: $1 - \sum_k \hat{p_{mk}}^2$
+
+* Deviance/information gain: $-\sum_k \hat{p_{mk}} log_2\hat{p_{mk}}$
