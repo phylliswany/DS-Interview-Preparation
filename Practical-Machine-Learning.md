@@ -54,8 +54,16 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 
 * AUC: 0.5 is random guessing and 1 is perfect classifier
 
-## Cross Validation
+## Cross validation
 
 * Used for: picking variables to include in a model, picking the type of prediction function to use, picking the parameters in the prediction function, and comparing different predictors
 
 * Use the training set and split it into training/test sets: Randome subsampling, K-fold, and Leave one out without replacement
+
+## Preprocessing with principal components analysis
+
+* Combination with the "most information" possible: reduce nuber of predictors and noise (due to averaging)
+
+* SVD: $X=UDV^T$ where $X$ is a matrix with each variable in a column and each observation in a row
+
+* PCA: the principal components are equal to the right singular values if you first scale the variables
