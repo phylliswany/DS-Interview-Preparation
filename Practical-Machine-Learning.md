@@ -125,3 +125,5 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * Discriminant function: $\delta_k(x) = x^T \Sigma^{-1} \mu_k - \frac{1}{2}\mu_k  \Sigma^{-1} \mu_k + log(\mu_k )$ and $\hat{Y}(x) = argmax_x \delta_k(x)$
 
 * Naive Bayes: $P(Y=k|X_1, ... X_m) \propto \pi_k P(X_1, ... X_m|Y=k)$ and $P(X_1, ... X_m, Y=k) \approx \pi_k P(X_1|Y=k)P(X_2|Y=k)...P(X_m|Y=k)$
+
+## Regularized regression
