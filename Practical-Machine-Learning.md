@@ -89,3 +89,11 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * Gini index: $1 - \sum_k \hat{p_{mk}}^2$
 
 * Deviance/information gain: $-\sum_k \hat{p_{mk}} log_2\hat{p_{mk}}$
+
+## Bagging
+
+* Resample cases, recalculate predictions and Average or majority vote
+
+* Similar bias, Reduced variance but More useful for non-linear functions
+
+* An extension is random forests
