@@ -127,3 +127,11 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * Naive Bayes: $P(Y=k|X_1, ... X_m) \propto \pi_k P(X_1, ... X_m|Y=k)$ and $P(X_1, ... X_m, Y=k) \approx \pi_k P(X_1|Y=k)P(X_2|Y=k)...P(X_m|Y=k)$
 
 ## Regularized regression
+
+* Pros: Can help with bias/variance tradeoff and model selection
+
+* Cons: May be computationally demanding on large data sets and Does not perform as well as random forests and boosting
+
+* Ridge regression: $\sum_i(y_i - \beta_0 + \sum_j x_{ij}\beta_j)^2 + \lambda \sum_j \beta_j^2$
+
+* Lasso regression: $\sum_i(y_i - \beta_0 + \sum_j x_{ij}\beta_j)^2 + \lambda \sum_j |\beta_j|$
