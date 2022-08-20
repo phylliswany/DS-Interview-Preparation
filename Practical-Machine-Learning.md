@@ -141,3 +141,7 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * Combine similar classifiers: Bagging, Boosting, and Random forests
 
 * Combine different classifiers: Model stacking and Model ensembling
+
+## Unsupervised prediction
+
+* You don't know the labels for prediction:  clusters
