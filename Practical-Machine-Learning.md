@@ -135,3 +135,9 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 * Ridge regression: $\sum_i(y_i - \beta_0 + \sum_j x_{ij}\beta_j)^2 + \lambda \sum_j \beta_j^2$
 
 * Lasso regression: $\sum_i(y_i - \beta_0 + \sum_j x_{ij}\beta_j)^2 + \lambda \sum_j |\beta_j|$
+
+## Combing predictors 
+
+* Combine similar classifiers: Bagging, Boosting, and Random forests
+
+* Combine different classifiers: Model stacking and Model ensembling
