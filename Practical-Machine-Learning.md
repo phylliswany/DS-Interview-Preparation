@@ -145,3 +145,11 @@ Slides: https://github.com/bcaffo/courses/tree/master/08_PracticalMachineLearnin
 ## Unsupervised prediction
 
 * You don't know the labels for prediction:  clusters
+
+## Forecasting
+
+* Trend: Consistently increasing pattern over time
+
+* Seasonal: When there is a pattern over a fixed period of time that recurs 
+
+* Cyclic: When data rises and falls over non fixed periods
